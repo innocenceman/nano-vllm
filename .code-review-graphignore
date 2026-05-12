@@ -1,0 +1,21 @@
+# code-review-graph scan scope for nano-vllm.
+# This tool indexes parseable tracked source files. Keep generated docs/state out;
+# Python tests are intentionally not ignored, so future tracked tests are included.
+
+# Generated/runtime state
+.planning/**
+.omx/**
+.gitnexus/**
+.code-review-graph/**
+.git/**
+__pycache__/**
+*.pyc
+
+# Non-code assets and documentation/config not needed in the review graph
+assets/**
+*.md
+*.toml
+*.png
+*.jpg
+*.jpeg
+*.svg

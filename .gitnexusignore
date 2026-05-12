@@ -1,0 +1,40 @@
+# GitNexus scan scope for nano-vllm.
+# Default-deny, then include source, tests, and high-signal repo context.
+*
+!*/
+
+# Product source and runnable scripts
+!nanovllm/*.py
+!nanovllm/**/*.py
+!example.py
+!bench.py
+
+# Tests, including future nested test packages
+!tests/*.py
+!tests/**/*.py
+!test/*.py
+!test/**/*.py
+!**/tests/*.py
+!**/tests/**/*.py
+!**/__tests__/*.py
+!**/__tests__/**/*.py
+!test_*.py
+!*_test.py
+!**/test_*.py
+!**/*_test.py
+
+# High-signal project context for code intelligence
+!pyproject.toml
+!README.md
+!AGENTS.md
+!CLAUDE.md
+
+# Generated/runtime state and non-code assets stay out of the index
+.planning/**
+.omx/**
+.gitnexus/**
+.code-review-graph/**
+.git/**
+__pycache__/**
+*.pyc
+assets/**
