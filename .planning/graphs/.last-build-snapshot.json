@@ -1,0 +1,4864 @@
+{
+  "version": 1,
+  "timestamp": "2026-05-12T03:23:35.109Z",
+  "nodes": [
+    {
+      "label": "example.py",
+      "file_type": "code",
+      "source_file": "example.py",
+      "source_location": "L1",
+      "id": "example_py",
+      "community": 3,
+      "norm_label": "example.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "example.py",
+      "source_location": "L6",
+      "id": "nano_vllm_example_main",
+      "community": 3,
+      "norm_label": "main()"
+    },
+    {
+      "label": "bench.py",
+      "file_type": "code",
+      "source_file": "bench.py",
+      "source_location": "L1",
+      "id": "bench_py",
+      "community": 3,
+      "norm_label": "bench.py"
+    },
+    {
+      "label": "main()",
+      "file_type": "code",
+      "source_file": "bench.py",
+      "source_location": "L8",
+      "id": "nano_vllm_bench_main",
+      "community": 3,
+      "norm_label": "main()"
+    },
+    {
+      "label": "__init__.py",
+      "file_type": "code",
+      "source_file": "nanovllm/__init__.py",
+      "source_location": "L1",
+      "id": "nanovllm_init_py",
+      "community": 12,
+      "norm_label": "__init__.py"
+    },
+    {
+      "label": "sampling_params.py",
+      "file_type": "code",
+      "source_file": "nanovllm/sampling_params.py",
+      "source_location": "L1",
+      "id": "nanovllm_sampling_params_py",
+      "community": 3,
+      "norm_label": "sampling_params.py"
+    },
+    {
+      "label": "SamplingParams",
+      "file_type": "code",
+      "source_file": "nanovllm/sampling_params.py",
+      "source_location": "L5",
+      "id": "nanovllm_sampling_params_samplingparams",
+      "community": 3,
+      "norm_label": "samplingparams"
+    },
+    {
+      "label": ".__post_init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/sampling_params.py",
+      "source_location": "L10",
+      "id": "nanovllm_sampling_params_samplingparams_post_init",
+      "community": 3,
+      "norm_label": ".__post_init__()"
+    },
+    {
+      "label": "llm.py",
+      "file_type": "code",
+      "source_file": "nanovllm/llm.py",
+      "source_location": "L1",
+      "id": "nanovllm_llm_py",
+      "community": 3,
+      "norm_label": "llm.py"
+    },
+    {
+      "label": "LLM",
+      "file_type": "code",
+      "source_file": "nanovllm/llm.py",
+      "source_location": "L4",
+      "id": "nanovllm_llm_llm",
+      "community": 3,
+      "norm_label": "llm"
+    },
+    {
+      "label": "LLMEngine",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "llmengine",
+      "community": 3,
+      "norm_label": "llmengine"
+    },
+    {
+      "label": "config.py",
+      "file_type": "code",
+      "source_file": "nanovllm/config.py",
+      "source_location": "L1",
+      "id": "nanovllm_config_py",
+      "community": 2,
+      "norm_label": "config.py"
+    },
+    {
+      "label": "Config",
+      "file_type": "code",
+      "source_file": "nanovllm/config.py",
+      "source_location": "L7",
+      "id": "nanovllm_config_config",
+      "community": 2,
+      "norm_label": "config"
+    },
+    {
+      "label": ".__post_init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/config.py",
+      "source_location": "L20",
+      "id": "nanovllm_config_config_post_init",
+      "community": 2,
+      "norm_label": ".__post_init__()"
+    },
+    {
+      "label": "rotary_embedding.py",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L1",
+      "id": "nanovllm_layers_rotary_embedding_py",
+      "community": 7,
+      "norm_label": "rotary_embedding.py"
+    },
+    {
+      "label": "apply_rotary_emb()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L6",
+      "id": "layers_rotary_embedding_apply_rotary_emb",
+      "community": 7,
+      "norm_label": "apply_rotary_emb()"
+    },
+    {
+      "label": "RotaryEmbedding",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L17",
+      "id": "layers_rotary_embedding_rotaryembedding",
+      "community": 7,
+      "norm_label": "rotaryembedding"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L19",
+      "id": "layers_rotary_embedding_rotaryembedding_init",
+      "community": 7,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L38",
+      "id": "layers_rotary_embedding_forward",
+      "community": 7,
+      "norm_label": "forward()"
+    },
+    {
+      "label": "get_rope()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L52",
+      "id": "layers_rotary_embedding_get_rope",
+      "community": 7,
+      "norm_label": "get_rope()"
+    },
+    {
+      "label": "linear.py",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L1",
+      "id": "nanovllm_layers_linear_py",
+      "community": 4,
+      "norm_label": "linear.py"
+    },
+    {
+      "label": "divide()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L7",
+      "id": "layers_linear_divide",
+      "community": 4,
+      "norm_label": "divide()"
+    },
+    {
+      "label": "LinearBase",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L12",
+      "id": "layers_linear_linearbase",
+      "community": 4,
+      "norm_label": "linearbase"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L14",
+      "id": "layers_linear_linearbase_init",
+      "community": 4,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L33",
+      "id": "layers_linear_linearbase_forward",
+      "community": 4,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "ReplicatedLinear",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L37",
+      "id": "layers_linear_replicatedlinear",
+      "community": 4,
+      "norm_label": "replicatedlinear"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L39",
+      "id": "layers_linear_replicatedlinear_init",
+      "community": 4,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".weight_loader()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L47",
+      "id": "layers_linear_replicatedlinear_weight_loader",
+      "community": 4,
+      "norm_label": ".weight_loader()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L50",
+      "id": "layers_linear_replicatedlinear_forward",
+      "community": 4,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "ColumnParallelLinear",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L54",
+      "id": "layers_linear_columnparallellinear",
+      "community": 4,
+      "norm_label": "columnparallellinear"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L56",
+      "id": "layers_linear_columnparallellinear_init",
+      "community": 4,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".weight_loader()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L65",
+      "id": "layers_linear_columnparallellinear_weight_loader",
+      "community": 4,
+      "norm_label": ".weight_loader()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L72",
+      "id": "layers_linear_columnparallellinear_forward",
+      "community": 4,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "MergedColumnParallelLinear",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L76",
+      "id": "layers_linear_mergedcolumnparallellinear",
+      "community": 0,
+      "norm_label": "mergedcolumnparallellinear"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L78",
+      "id": "layers_linear_mergedcolumnparallellinear_init",
+      "community": 4,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".weight_loader()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L87",
+      "id": "layers_linear_mergedcolumnparallellinear_weight_loader",
+      "community": 0,
+      "norm_label": ".weight_loader()"
+    },
+    {
+      "label": "QKVParallelLinear",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L96",
+      "id": "layers_linear_qkvparallellinear",
+      "community": 0,
+      "norm_label": "qkvparallellinear"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L98",
+      "id": "layers_linear_qkvparallellinear_init",
+      "community": 4,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".weight_loader()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L114",
+      "id": "layers_linear_qkvparallellinear_weight_loader",
+      "community": 0,
+      "norm_label": ".weight_loader()"
+    },
+    {
+      "label": "RowParallelLinear",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L131",
+      "id": "layers_linear_rowparallellinear",
+      "community": 0,
+      "norm_label": "rowparallellinear"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L133",
+      "id": "layers_linear_rowparallellinear_init",
+      "community": 4,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".weight_loader()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L142",
+      "id": "layers_linear_rowparallellinear_weight_loader",
+      "community": 0,
+      "norm_label": ".weight_loader()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L152",
+      "id": "layers_linear_rowparallellinear_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "sampler.py",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/sampler.py",
+      "source_location": "L1",
+      "id": "nanovllm_layers_sampler_py",
+      "community": 1,
+      "norm_label": "sampler.py"
+    },
+    {
+      "label": "Sampler",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/sampler.py",
+      "source_location": "L5",
+      "id": "layers_sampler_sampler",
+      "community": 1,
+      "norm_label": "sampler"
+    },
+    {
+      "label": "forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/sampler.py",
+      "source_location": "L8",
+      "id": "layers_sampler_forward",
+      "community": 1,
+      "norm_label": "forward()"
+    },
+    {
+      "label": "embed_head.py",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L1",
+      "id": "nanovllm_layers_embed_head_py",
+      "community": 0,
+      "norm_label": "embed_head.py"
+    },
+    {
+      "label": "VocabParallelEmbedding",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L9",
+      "id": "layers_embed_head_vocabparallelembedding",
+      "community": 0,
+      "norm_label": "vocabparallelembedding"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L11",
+      "id": "layers_embed_head_vocabparallelembedding_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".weight_loader()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L27",
+      "id": "layers_embed_head_vocabparallelembedding_weight_loader",
+      "community": 0,
+      "norm_label": ".weight_loader()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L34",
+      "id": "layers_embed_head_vocabparallelembedding_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "ParallelLMHead",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L45",
+      "id": "layers_embed_head_parallellmhead",
+      "community": 0,
+      "norm_label": "parallellmhead"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L47",
+      "id": "layers_embed_head_parallellmhead_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L56",
+      "id": "layers_embed_head_parallellmhead_forward",
+      "community": 1,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "activation.py",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/activation.py",
+      "source_location": "L1",
+      "id": "nanovllm_layers_activation_py",
+      "community": 0,
+      "norm_label": "activation.py"
+    },
+    {
+      "label": "SiluAndMul",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/activation.py",
+      "source_location": "L6",
+      "id": "layers_activation_siluandmul",
+      "community": 0,
+      "norm_label": "siluandmul"
+    },
+    {
+      "label": "forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/activation.py",
+      "source_location": "L9",
+      "id": "layers_activation_forward",
+      "community": 0,
+      "norm_label": "forward()"
+    },
+    {
+      "label": "attention.py",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L1",
+      "id": "nanovllm_layers_attention_py",
+      "community": 10,
+      "norm_label": "attention.py"
+    },
+    {
+      "label": "store_kvcache_kernel()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L11",
+      "id": "layers_attention_store_kvcache_kernel",
+      "community": 10,
+      "norm_label": "store_kvcache_kernel()"
+    },
+    {
+      "label": "store_kvcache()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L33",
+      "id": "layers_attention_store_kvcache",
+      "community": 10,
+      "norm_label": "store_kvcache()"
+    },
+    {
+      "label": "Attention",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L43",
+      "id": "layers_attention_attention",
+      "community": 0,
+      "norm_label": "attention"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L45",
+      "id": "layers_attention_attention_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L59",
+      "id": "layers_attention_attention_forward",
+      "community": 10,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "layernorm.py",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L1",
+      "id": "nanovllm_layers_layernorm_py",
+      "community": 11,
+      "norm_label": "layernorm.py"
+    },
+    {
+      "label": "RMSNorm",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L5",
+      "id": "layers_layernorm_rmsnorm",
+      "community": 0,
+      "norm_label": "rmsnorm"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L7",
+      "id": "layers_layernorm_rmsnorm_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "rms_forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L17",
+      "id": "layers_layernorm_rms_forward",
+      "community": 11,
+      "norm_label": "rms_forward()"
+    },
+    {
+      "label": "add_rms_forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L29",
+      "id": "layers_layernorm_add_rms_forward",
+      "community": 11,
+      "norm_label": "add_rms_forward()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L42",
+      "id": "layers_layernorm_rmsnorm_forward",
+      "community": 11,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "context.py",
+      "file_type": "code",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L1",
+      "id": "nanovllm_utils_context_py",
+      "community": 1,
+      "norm_label": "context.py"
+    },
+    {
+      "label": "Context",
+      "file_type": "code",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L6",
+      "id": "utils_context_context",
+      "community": 1,
+      "norm_label": "context"
+    },
+    {
+      "label": "get_context()",
+      "file_type": "code",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L18",
+      "id": "utils_context_get_context",
+      "community": 1,
+      "norm_label": "get_context()"
+    },
+    {
+      "label": "set_context()",
+      "file_type": "code",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L21",
+      "id": "utils_context_set_context",
+      "community": 1,
+      "norm_label": "set_context()"
+    },
+    {
+      "label": "reset_context()",
+      "file_type": "code",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L25",
+      "id": "utils_context_reset_context",
+      "community": 1,
+      "norm_label": "reset_context()"
+    },
+    {
+      "label": "loader.py",
+      "file_type": "code",
+      "source_file": "nanovllm/utils/loader.py",
+      "source_location": "L1",
+      "id": "nanovllm_utils_loader_py",
+      "community": 1,
+      "norm_label": "loader.py"
+    },
+    {
+      "label": "default_weight_loader()",
+      "file_type": "code",
+      "source_file": "nanovllm/utils/loader.py",
+      "source_location": "L8",
+      "id": "utils_loader_default_weight_loader",
+      "community": 1,
+      "norm_label": "default_weight_loader()"
+    },
+    {
+      "label": "load_model()",
+      "file_type": "code",
+      "source_file": "nanovllm/utils/loader.py",
+      "source_location": "L12",
+      "id": "utils_loader_load_model",
+      "community": 1,
+      "norm_label": "load_model()"
+    },
+    {
+      "label": "sequence.py",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L1",
+      "id": "nanovllm_engine_sequence_py",
+      "community": 3,
+      "norm_label": "sequence.py"
+    },
+    {
+      "label": "SequenceStatus",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L8",
+      "id": "engine_sequence_sequencestatus",
+      "community": 3,
+      "norm_label": "sequencestatus"
+    },
+    {
+      "label": "Enum",
+      "file_type": "code",
+      "source_file": "",
+      "source_location": "",
+      "id": "enum",
+      "community": 3,
+      "norm_label": "enum"
+    },
+    {
+      "label": "Sequence",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L14",
+      "id": "engine_sequence_sequence",
+      "community": 2,
+      "norm_label": "sequence"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L18",
+      "id": "engine_sequence_sequence_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".__len__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L33",
+      "id": "engine_sequence_sequence_len",
+      "community": 2,
+      "norm_label": ".__len__()"
+    },
+    {
+      "label": ".__getitem__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L36",
+      "id": "engine_sequence_sequence_getitem",
+      "community": 2,
+      "norm_label": ".__getitem__()"
+    },
+    {
+      "label": "is_finished()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L40",
+      "id": "engine_sequence_is_finished",
+      "community": 3,
+      "norm_label": "is_finished()"
+    },
+    {
+      "label": "num_completion_tokens()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L44",
+      "id": "engine_sequence_num_completion_tokens",
+      "community": 3,
+      "norm_label": "num_completion_tokens()"
+    },
+    {
+      "label": "prompt_token_ids()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L48",
+      "id": "engine_sequence_prompt_token_ids",
+      "community": 3,
+      "norm_label": "prompt_token_ids()"
+    },
+    {
+      "label": "completion_token_ids()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L52",
+      "id": "engine_sequence_completion_token_ids",
+      "community": 3,
+      "norm_label": "completion_token_ids()"
+    },
+    {
+      "label": "num_blocks()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L56",
+      "id": "engine_sequence_num_blocks",
+      "community": 3,
+      "norm_label": "num_blocks()"
+    },
+    {
+      "label": "last_block_num_tokens()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L60",
+      "id": "engine_sequence_last_block_num_tokens",
+      "community": 3,
+      "norm_label": "last_block_num_tokens()"
+    },
+    {
+      "label": ".block()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L63",
+      "id": "engine_sequence_sequence_block",
+      "community": 2,
+      "norm_label": ".block()"
+    },
+    {
+      "label": ".append_token()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L67",
+      "id": "engine_sequence_sequence_append_token",
+      "community": 2,
+      "norm_label": ".append_token()"
+    },
+    {
+      "label": ".__getstate__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L72",
+      "id": "engine_sequence_sequence_getstate",
+      "community": 2,
+      "norm_label": ".__getstate__()"
+    },
+    {
+      "label": ".__setstate__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L76",
+      "id": "engine_sequence_sequence_setstate",
+      "community": 2,
+      "norm_label": ".__setstate__()"
+    },
+    {
+      "label": "model_runner.py",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L1",
+      "id": "nanovllm_engine_model_runner_py",
+      "community": 1,
+      "norm_label": "model_runner.py"
+    },
+    {
+      "label": "ModelRunner",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L15",
+      "id": "engine_model_runner_modelrunner",
+      "community": 1,
+      "norm_label": "modelrunner"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L17",
+      "id": "engine_model_runner_modelrunner_init",
+      "community": 1,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".exit()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L50",
+      "id": "engine_model_runner_modelrunner_exit",
+      "community": 1,
+      "norm_label": ".exit()"
+    },
+    {
+      "label": ".loop()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L61",
+      "id": "engine_model_runner_modelrunner_loop",
+      "community": 1,
+      "norm_label": ".loop()"
+    },
+    {
+      "label": ".read_shm()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L68",
+      "id": "engine_model_runner_modelrunner_read_shm",
+      "community": 1,
+      "norm_label": ".read_shm()"
+    },
+    {
+      "label": ".write_shm()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L76",
+      "id": "engine_model_runner_modelrunner_write_shm",
+      "community": 1,
+      "norm_label": ".write_shm()"
+    },
+    {
+      "label": ".call()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L85",
+      "id": "engine_model_runner_modelrunner_call",
+      "community": 1,
+      "norm_label": ".call()"
+    },
+    {
+      "label": ".warmup_model()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L91",
+      "id": "engine_model_runner_modelrunner_warmup_model",
+      "community": 1,
+      "norm_label": ".warmup_model()"
+    },
+    {
+      "label": ".allocate_kv_cache()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L103",
+      "id": "engine_model_runner_modelrunner_allocate_kv_cache",
+      "community": 1,
+      "norm_label": ".allocate_kv_cache()"
+    },
+    {
+      "label": ".prepare_block_tables()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L123",
+      "id": "engine_model_runner_modelrunner_prepare_block_tables",
+      "community": 1,
+      "norm_label": ".prepare_block_tables()"
+    },
+    {
+      "label": ".prepare_prefill()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L129",
+      "id": "engine_model_runner_modelrunner_prepare_prefill",
+      "community": 1,
+      "norm_label": ".prepare_prefill()"
+    },
+    {
+      "label": ".prepare_decode()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L172",
+      "id": "engine_model_runner_modelrunner_prepare_decode",
+      "community": 1,
+      "norm_label": ".prepare_decode()"
+    },
+    {
+      "label": ".prepare_sample()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L190",
+      "id": "engine_model_runner_modelrunner_prepare_sample",
+      "community": 1,
+      "norm_label": ".prepare_sample()"
+    },
+    {
+      "label": "run_model()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L196",
+      "id": "engine_model_runner_run_model",
+      "community": 1,
+      "norm_label": "run_model()"
+    },
+    {
+      "label": ".run()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L214",
+      "id": "engine_model_runner_modelrunner_run",
+      "community": 1,
+      "norm_label": ".run()"
+    },
+    {
+      "label": "capture_cudagraph()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L223",
+      "id": "engine_model_runner_capture_cudagraph",
+      "community": 1,
+      "norm_label": "capture_cudagraph()"
+    },
+    {
+      "label": "block_manager.py",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L1",
+      "id": "nanovllm_engine_block_manager_py",
+      "community": 5,
+      "norm_label": "block_manager.py"
+    },
+    {
+      "label": "Block",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L8",
+      "id": "engine_block_manager_block",
+      "community": 5,
+      "norm_label": "block"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L10",
+      "id": "engine_block_manager_block_init",
+      "community": 5,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".update()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L16",
+      "id": "engine_block_manager_block_update",
+      "community": 5,
+      "norm_label": ".update()"
+    },
+    {
+      "label": ".reset()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L20",
+      "id": "engine_block_manager_block_reset",
+      "community": 5,
+      "norm_label": ".reset()"
+    },
+    {
+      "label": "BlockManager",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L26",
+      "id": "engine_block_manager_blockmanager",
+      "community": 5,
+      "norm_label": "blockmanager"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L28",
+      "id": "engine_block_manager_blockmanager_init",
+      "community": 5,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": "compute_hash()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L36",
+      "id": "engine_block_manager_compute_hash",
+      "community": 5,
+      "norm_label": "compute_hash()"
+    },
+    {
+      "label": "._allocate_block()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L43",
+      "id": "engine_block_manager_blockmanager_allocate_block",
+      "community": 5,
+      "norm_label": "._allocate_block()"
+    },
+    {
+      "label": "._deallocate_block()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L53",
+      "id": "engine_block_manager_blockmanager_deallocate_block",
+      "community": 5,
+      "norm_label": "._deallocate_block()"
+    },
+    {
+      "label": ".can_allocate()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L58",
+      "id": "engine_block_manager_blockmanager_can_allocate",
+      "community": 5,
+      "norm_label": ".can_allocate()"
+    },
+    {
+      "label": ".allocate()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L75",
+      "id": "engine_block_manager_blockmanager_allocate",
+      "community": 5,
+      "norm_label": ".allocate()"
+    },
+    {
+      "label": ".deallocate()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L94",
+      "id": "engine_block_manager_blockmanager_deallocate",
+      "community": 5,
+      "norm_label": ".deallocate()"
+    },
+    {
+      "label": ".can_append()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L103",
+      "id": "engine_block_manager_blockmanager_can_append",
+      "community": 5,
+      "norm_label": ".can_append()"
+    },
+    {
+      "label": ".may_append()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L106",
+      "id": "engine_block_manager_blockmanager_may_append",
+      "community": 5,
+      "norm_label": ".may_append()"
+    },
+    {
+      "label": ".hash_blocks()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L110",
+      "id": "engine_block_manager_blockmanager_hash_blocks",
+      "community": 5,
+      "norm_label": ".hash_blocks()"
+    },
+    {
+      "label": "llm_engine.py",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L1",
+      "id": "nanovllm_engine_llm_engine_py",
+      "community": 2,
+      "norm_label": "llm_engine.py"
+    },
+    {
+      "label": "LLMEngine",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L15",
+      "id": "engine_llm_engine_llmengine",
+      "community": 2,
+      "norm_label": "llmengine"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L17",
+      "id": "engine_llm_engine_llmengine_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".exit()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L37",
+      "id": "engine_llm_engine_llmengine_exit",
+      "community": 2,
+      "norm_label": ".exit()"
+    },
+    {
+      "label": ".add_request()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L43",
+      "id": "engine_llm_engine_llmengine_add_request",
+      "community": 2,
+      "norm_label": ".add_request()"
+    },
+    {
+      "label": ".step()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L49",
+      "id": "engine_llm_engine_llmengine_step",
+      "community": 2,
+      "norm_label": ".step()"
+    },
+    {
+      "label": ".is_finished()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L57",
+      "id": "engine_llm_engine_llmengine_is_finished",
+      "community": 2,
+      "norm_label": ".is_finished()"
+    },
+    {
+      "label": ".generate()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L60",
+      "id": "engine_llm_engine_llmengine_generate",
+      "community": 2,
+      "norm_label": ".generate()"
+    },
+    {
+      "label": "scheduler.py",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L1",
+      "id": "nanovllm_engine_scheduler_py",
+      "community": 2,
+      "norm_label": "scheduler.py"
+    },
+    {
+      "label": "Scheduler",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L8",
+      "id": "engine_scheduler_scheduler",
+      "community": 2,
+      "norm_label": "scheduler"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L10",
+      "id": "engine_scheduler_scheduler_init",
+      "community": 2,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".is_finished()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L19",
+      "id": "engine_scheduler_scheduler_is_finished",
+      "community": 2,
+      "norm_label": ".is_finished()"
+    },
+    {
+      "label": ".add()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L22",
+      "id": "engine_scheduler_scheduler_add",
+      "community": 2,
+      "norm_label": ".add()"
+    },
+    {
+      "label": ".schedule()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L25",
+      "id": "engine_scheduler_scheduler_schedule",
+      "community": 2,
+      "norm_label": ".schedule()"
+    },
+    {
+      "label": ".preempt()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L75",
+      "id": "engine_scheduler_scheduler_preempt",
+      "community": 2,
+      "norm_label": ".preempt()"
+    },
+    {
+      "label": ".postprocess()",
+      "file_type": "code",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L81",
+      "id": "engine_scheduler_scheduler_postprocess",
+      "community": 2,
+      "norm_label": ".postprocess()"
+    },
+    {
+      "label": "qwen3.py",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L1",
+      "id": "nanovllm_models_qwen3_py",
+      "community": 0,
+      "norm_label": "qwen3.py"
+    },
+    {
+      "label": "Qwen3Attention",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L14",
+      "id": "models_qwen3_qwen3attention",
+      "community": 0,
+      "norm_label": "qwen3attention"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L16",
+      "id": "models_qwen3_qwen3attention_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L72",
+      "id": "models_qwen3_qwen3attention_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "Qwen3MLP",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L91",
+      "id": "models_qwen3_qwen3mlp",
+      "community": 0,
+      "norm_label": "qwen3mlp"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L93",
+      "id": "models_qwen3_qwen3mlp_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L113",
+      "id": "models_qwen3_qwen3mlp_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "Qwen3DecoderLayer",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L120",
+      "id": "models_qwen3_qwen3decoderlayer",
+      "community": 0,
+      "norm_label": "qwen3decoderlayer"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L122",
+      "id": "models_qwen3_qwen3decoderlayer_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L146",
+      "id": "models_qwen3_qwen3decoderlayer_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "Qwen3Model",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L162",
+      "id": "models_qwen3_qwen3model",
+      "community": 0,
+      "norm_label": "qwen3model"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L164",
+      "id": "models_qwen3_qwen3model_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L173",
+      "id": "models_qwen3_qwen3model_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": "Qwen3ForCausalLM",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L186",
+      "id": "models_qwen3_qwen3forcausallm",
+      "community": 0,
+      "norm_label": "qwen3forcausallm"
+    },
+    {
+      "label": ".__init__()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L195",
+      "id": "models_qwen3_qwen3forcausallm_init",
+      "community": 0,
+      "norm_label": ".__init__()"
+    },
+    {
+      "label": ".forward()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L205",
+      "id": "models_qwen3_qwen3forcausallm_forward",
+      "community": 0,
+      "norm_label": ".forward()"
+    },
+    {
+      "label": ".compute_logits()",
+      "file_type": "code",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L212",
+      "id": "models_qwen3_qwen3forcausallm_compute_logits",
+      "community": 0,
+      "norm_label": ".compute_logits()"
+    },
+    {
+      "label": "README.md",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L1",
+      "id": "readme_md",
+      "community": 6,
+      "norm_label": "readme.md"
+    },
+    {
+      "label": "Nano-vLLM",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "id": "nano_vllm_readme_nano_vllm",
+      "community": 6,
+      "norm_label": "nano-vllm"
+    },
+    {
+      "label": "Key Features",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "id": "nano_vllm_readme_key_features",
+      "community": 6,
+      "norm_label": "key features"
+    },
+    {
+      "label": "Installation",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "id": "nano_vllm_readme_installation",
+      "community": 6,
+      "norm_label": "installation"
+    },
+    {
+      "label": "code:bash (pip install git+https://github.com/GeeeekExplorer/nano-vllm.)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "id": "nano_vllm_readme_codeblock_1",
+      "community": 6,
+      "norm_label": "code:bash (pip install git+https://github.com/geeeekexplorer/nano-vllm.)"
+    },
+    {
+      "label": "Model Download",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "id": "nano_vllm_readme_model_download",
+      "community": 6,
+      "norm_label": "model download"
+    },
+    {
+      "label": "code:bash (huggingface-cli download --resume-download Qwen/Qwen3-0.6B \\)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "id": "nano_vllm_readme_codeblock_2",
+      "community": 6,
+      "norm_label": "code:bash (huggingface-cli download --resume-download qwen/qwen3-0.6b \\)"
+    },
+    {
+      "label": "Quick Start",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "id": "nano_vllm_readme_quick_start",
+      "community": 6,
+      "norm_label": "quick start"
+    },
+    {
+      "label": "code:python (from nanovllm import LLM, SamplingParams)",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "id": "nano_vllm_readme_codeblock_3",
+      "community": 6,
+      "norm_label": "code:python (from nanovllm import llm, samplingparams)"
+    },
+    {
+      "label": "Benchmark",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "id": "nano_vllm_readme_benchmark",
+      "community": 6,
+      "norm_label": "benchmark"
+    },
+    {
+      "label": "Star History",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": "L64",
+      "id": "nano_vllm_readme_star_history",
+      "community": 6,
+      "norm_label": "star history"
+    },
+    {
+      "label": "AGENTS.md",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L1",
+      "id": "agents_md",
+      "community": 8,
+      "norm_label": "agents.md"
+    },
+    {
+      "label": "GitNexus — Code Intelligence",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L2",
+      "id": "nano_vllm_agents_gitnexus_code_intelligence",
+      "community": 8,
+      "norm_label": "gitnexus — code intelligence"
+    },
+    {
+      "label": "Always Do",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L8",
+      "id": "nano_vllm_agents_always_do",
+      "community": 8,
+      "norm_label": "always do"
+    },
+    {
+      "label": "Never Do",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L16",
+      "id": "nano_vllm_agents_never_do",
+      "community": 8,
+      "norm_label": "never do"
+    },
+    {
+      "label": "Resources",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L23",
+      "id": "nano_vllm_agents_resources",
+      "community": 8,
+      "norm_label": "resources"
+    },
+    {
+      "label": "CLI",
+      "file_type": "document",
+      "source_file": "AGENTS.md",
+      "source_location": "L32",
+      "id": "nano_vllm_agents_cli",
+      "community": 8,
+      "norm_label": "cli"
+    },
+    {
+      "label": "CLAUDE.md",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L1",
+      "id": "claude_md",
+      "community": 9,
+      "norm_label": "claude.md"
+    },
+    {
+      "label": "GitNexus — Code Intelligence",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L2",
+      "id": "nano_vllm_claude_gitnexus_code_intelligence",
+      "community": 9,
+      "norm_label": "gitnexus — code intelligence"
+    },
+    {
+      "label": "Always Do",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L8",
+      "id": "nano_vllm_claude_always_do",
+      "community": 9,
+      "norm_label": "always do"
+    },
+    {
+      "label": "Never Do",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L16",
+      "id": "nano_vllm_claude_never_do",
+      "community": 9,
+      "norm_label": "never do"
+    },
+    {
+      "label": "Resources",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L23",
+      "id": "nano_vllm_claude_resources",
+      "community": 9,
+      "norm_label": "resources"
+    },
+    {
+      "label": "CLI",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": "L32",
+      "id": "nano_vllm_claude_cli",
+      "community": 9,
+      "norm_label": "cli"
+    }
+  ],
+  "edges": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "example.py",
+      "source_location": "L6",
+      "weight": 1,
+      "source": "example_py",
+      "target": "nano_vllm_example_main",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "example.py",
+      "source_location": "L9",
+      "weight": 1,
+      "source": "nano_vllm_example_main",
+      "target": "nanovllm_llm_llm"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "example.py",
+      "source_location": "L11",
+      "weight": 1,
+      "source": "nano_vllm_example_main",
+      "target": "nanovllm_sampling_params_samplingparams"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "bench.py",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "bench_py",
+      "target": "nano_vllm_bench_main",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "bench.py",
+      "source_location": "L15",
+      "weight": 1,
+      "source": "nano_vllm_bench_main",
+      "target": "nanovllm_llm_llm"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "bench.py",
+      "source_location": "L18",
+      "weight": 1,
+      "source": "nano_vllm_bench_main",
+      "target": "nanovllm_sampling_params_samplingparams"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/sampling_params.py",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "nanovllm_sampling_params_py",
+      "target": "nanovllm_sampling_params_samplingparams",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/sampling_params.py",
+      "source_location": "L10",
+      "weight": 1,
+      "source": "nanovllm_sampling_params_samplingparams",
+      "target": "nanovllm_sampling_params_samplingparams_post_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "source": "engine_sequence_sequencestatus",
+      "target": "nanovllm_sampling_params_samplingparams",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "source": "engine_sequence_sequence",
+      "target": "nanovllm_sampling_params_samplingparams",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "engine_llm_engine_llmengine",
+      "target": "nanovllm_sampling_params_samplingparams",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/llm.py",
+      "source_location": "L4",
+      "weight": 1,
+      "source": "nanovllm_llm_py",
+      "target": "nanovllm_llm_llm",
+      "confidence_score": 1
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/llm.py",
+      "source_location": "L4",
+      "weight": 1,
+      "source": "nanovllm_llm_llm",
+      "target": "llmengine",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/llm.py",
+      "source_location": "L1",
+      "weight": 0.8,
+      "source": "nanovllm_llm_llm",
+      "target": "engine_llm_engine_llmengine",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/config.py",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "nanovllm_config_py",
+      "target": "nanovllm_config_config",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/config.py",
+      "source_location": "L20",
+      "weight": 1,
+      "source": "nanovllm_config_config",
+      "target": "nanovllm_config_config_post_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "engine_model_runner_modelrunner",
+      "target": "nanovllm_config_config",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "engine_llm_engine_llmengine",
+      "target": "nanovllm_config_config",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L3",
+      "weight": 0.8,
+      "source": "engine_scheduler_scheduler",
+      "target": "nanovllm_config_config",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L20",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine_init",
+      "target": "nanovllm_config_config"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L6",
+      "weight": 1,
+      "source": "nanovllm_layers_rotary_embedding_py",
+      "target": "layers_rotary_embedding_apply_rotary_emb",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L17",
+      "weight": 1,
+      "source": "nanovllm_layers_rotary_embedding_py",
+      "target": "layers_rotary_embedding_rotaryembedding",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L38",
+      "weight": 1,
+      "source": "nanovllm_layers_rotary_embedding_py",
+      "target": "layers_rotary_embedding_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L52",
+      "weight": 1,
+      "source": "nanovllm_layers_rotary_embedding_py",
+      "target": "layers_rotary_embedding_get_rope",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L46",
+      "weight": 1,
+      "source": "layers_rotary_embedding_forward",
+      "target": "layers_rotary_embedding_apply_rotary_emb",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L19",
+      "weight": 1,
+      "source": "layers_rotary_embedding_rotaryembedding",
+      "target": "layers_rotary_embedding_rotaryembedding_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/rotary_embedding.py",
+      "source_location": "L58",
+      "weight": 1,
+      "source": "layers_rotary_embedding_get_rope",
+      "target": "layers_rotary_embedding_rotaryembedding",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L56",
+      "weight": 1,
+      "source": "models_qwen3_qwen3attention_init",
+      "target": "layers_rotary_embedding_get_rope"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "nanovllm_layers_linear_py",
+      "target": "layers_linear_divide",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L12",
+      "weight": 1,
+      "source": "nanovllm_layers_linear_py",
+      "target": "layers_linear_linearbase",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "nanovllm_layers_linear_py",
+      "target": "layers_linear_replicatedlinear",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L54",
+      "weight": 1,
+      "source": "nanovllm_layers_linear_py",
+      "target": "layers_linear_columnparallellinear",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L76",
+      "weight": 1,
+      "source": "nanovllm_layers_linear_py",
+      "target": "layers_linear_mergedcolumnparallellinear",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L96",
+      "weight": 1,
+      "source": "nanovllm_layers_linear_py",
+      "target": "layers_linear_qkvparallellinear",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L131",
+      "weight": 1,
+      "source": "nanovllm_layers_linear_py",
+      "target": "layers_linear_rowparallellinear",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "layers_linear_columnparallellinear_init",
+      "target": "layers_linear_divide",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L109",
+      "weight": 1,
+      "source": "layers_linear_qkvparallellinear_init",
+      "target": "layers_linear_divide",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L140",
+      "weight": 1,
+      "source": "layers_linear_rowparallellinear_init",
+      "target": "layers_linear_divide",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L14",
+      "weight": 1,
+      "source": "layers_linear_linearbase",
+      "target": "layers_linear_linearbase_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L33",
+      "weight": 1,
+      "source": "layers_linear_linearbase",
+      "target": "layers_linear_linearbase_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "layers_linear_replicatedlinear",
+      "target": "layers_linear_linearbase",
+      "confidence_score": 1
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L54",
+      "weight": 1,
+      "source": "layers_linear_columnparallellinear",
+      "target": "layers_linear_linearbase",
+      "confidence_score": 1
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L131",
+      "weight": 1,
+      "source": "layers_linear_rowparallellinear",
+      "target": "layers_linear_linearbase",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "layers_linear_linearbase_init",
+      "target": "layers_linear_rowparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L39",
+      "weight": 1,
+      "source": "layers_linear_replicatedlinear",
+      "target": "layers_linear_replicatedlinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L47",
+      "weight": 1,
+      "source": "layers_linear_replicatedlinear",
+      "target": "layers_linear_replicatedlinear_weight_loader",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L50",
+      "weight": 1,
+      "source": "layers_linear_replicatedlinear",
+      "target": "layers_linear_replicatedlinear_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "layers_linear_replicatedlinear_init",
+      "target": "layers_linear_rowparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L56",
+      "weight": 1,
+      "source": "layers_linear_columnparallellinear",
+      "target": "layers_linear_columnparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L65",
+      "weight": 1,
+      "source": "layers_linear_columnparallellinear",
+      "target": "layers_linear_columnparallellinear_weight_loader",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L72",
+      "weight": 1,
+      "source": "layers_linear_columnparallellinear",
+      "target": "layers_linear_columnparallellinear_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L76",
+      "weight": 1,
+      "source": "layers_linear_mergedcolumnparallellinear",
+      "target": "layers_linear_columnparallellinear",
+      "confidence_score": 1
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L96",
+      "weight": 1,
+      "source": "layers_linear_qkvparallellinear",
+      "target": "layers_linear_columnparallellinear",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "layers_linear_columnparallellinear_init",
+      "target": "layers_linear_rowparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L78",
+      "weight": 1,
+      "source": "layers_linear_mergedcolumnparallellinear",
+      "target": "layers_linear_mergedcolumnparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L87",
+      "weight": 1,
+      "source": "layers_linear_mergedcolumnparallellinear",
+      "target": "layers_linear_mergedcolumnparallellinear_weight_loader",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3attention",
+      "target": "layers_linear_mergedcolumnparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "layers_linear_mergedcolumnparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "layers_linear_mergedcolumnparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3model",
+      "target": "layers_linear_mergedcolumnparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "layers_linear_mergedcolumnparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L100",
+      "weight": 1,
+      "source": "models_qwen3_qwen3mlp_init",
+      "target": "layers_linear_mergedcolumnparallellinear"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L85",
+      "weight": 1,
+      "source": "layers_linear_mergedcolumnparallellinear_init",
+      "target": "layers_linear_rowparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L98",
+      "weight": 1,
+      "source": "layers_linear_qkvparallellinear",
+      "target": "layers_linear_qkvparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L114",
+      "weight": 1,
+      "source": "layers_linear_qkvparallellinear",
+      "target": "layers_linear_qkvparallellinear_weight_loader",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3attention",
+      "target": "layers_linear_qkvparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "layers_linear_qkvparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "layers_linear_qkvparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3model",
+      "target": "layers_linear_qkvparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "layers_linear_qkvparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L42",
+      "weight": 1,
+      "source": "models_qwen3_qwen3attention_init",
+      "target": "layers_linear_qkvparallellinear"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L112",
+      "weight": 1,
+      "source": "layers_linear_qkvparallellinear_init",
+      "target": "layers_linear_rowparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L133",
+      "weight": 1,
+      "source": "layers_linear_rowparallellinear",
+      "target": "layers_linear_rowparallellinear_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L142",
+      "weight": 1,
+      "source": "layers_linear_rowparallellinear",
+      "target": "layers_linear_rowparallellinear_weight_loader",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/linear.py",
+      "source_location": "L152",
+      "weight": 1,
+      "source": "layers_linear_rowparallellinear",
+      "target": "layers_linear_rowparallellinear_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3attention",
+      "target": "layers_linear_rowparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "layers_linear_rowparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "layers_linear_rowparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3model",
+      "target": "layers_linear_rowparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "layers_linear_rowparallellinear",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L49",
+      "weight": 1,
+      "source": "models_qwen3_qwen3attention_init",
+      "target": "layers_linear_rowparallellinear"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L105",
+      "weight": 1,
+      "source": "models_qwen3_qwen3mlp_init",
+      "target": "layers_linear_rowparallellinear"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/sampler.py",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "nanovllm_layers_sampler_py",
+      "target": "layers_sampler_sampler",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/sampler.py",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "nanovllm_layers_sampler_py",
+      "target": "layers_sampler_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "engine_model_runner_modelrunner",
+      "target": "layers_sampler_sampler",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L33",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_init",
+      "target": "layers_sampler_sampler"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L9",
+      "weight": 1,
+      "source": "nanovllm_layers_embed_head_py",
+      "target": "layers_embed_head_vocabparallelembedding",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "nanovllm_layers_embed_head_py",
+      "target": "layers_embed_head_parallellmhead",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L11",
+      "weight": 1,
+      "source": "layers_embed_head_vocabparallelembedding",
+      "target": "layers_embed_head_vocabparallelembedding_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L27",
+      "weight": 1,
+      "source": "layers_embed_head_vocabparallelembedding",
+      "target": "layers_embed_head_vocabparallelembedding_weight_loader",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "layers_embed_head_vocabparallelembedding",
+      "target": "layers_embed_head_vocabparallelembedding_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "layers_embed_head_parallellmhead",
+      "target": "layers_embed_head_vocabparallelembedding",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3attention",
+      "target": "layers_embed_head_vocabparallelembedding",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "layers_embed_head_vocabparallelembedding",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "layers_embed_head_vocabparallelembedding",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3model",
+      "target": "layers_embed_head_vocabparallelembedding",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "layers_embed_head_vocabparallelembedding",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L169",
+      "weight": 1,
+      "source": "models_qwen3_qwen3model_init",
+      "target": "layers_embed_head_vocabparallelembedding"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "layers_embed_head_vocabparallelembedding_init",
+      "target": "layers_embed_head_parallellmhead_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L47",
+      "weight": 1,
+      "source": "layers_embed_head_parallellmhead",
+      "target": "layers_embed_head_parallellmhead_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L56",
+      "weight": 1,
+      "source": "layers_embed_head_parallellmhead",
+      "target": "layers_embed_head_parallellmhead_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3attention",
+      "target": "layers_embed_head_parallellmhead",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "layers_embed_head_parallellmhead",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "layers_embed_head_parallellmhead",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3model",
+      "target": "layers_embed_head_parallellmhead",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "layers_embed_head_parallellmhead",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L201",
+      "weight": 1,
+      "source": "models_qwen3_qwen3forcausallm_init",
+      "target": "layers_embed_head_parallellmhead"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/layers/embed_head.py",
+      "source_location": "L57",
+      "weight": 1,
+      "source": "layers_embed_head_parallellmhead_forward",
+      "target": "utils_context_get_context"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/activation.py",
+      "source_location": "L6",
+      "weight": 1,
+      "source": "nanovllm_layers_activation_py",
+      "target": "layers_activation_siluandmul",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/activation.py",
+      "source_location": "L9",
+      "weight": 1,
+      "source": "nanovllm_layers_activation_py",
+      "target": "layers_activation_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3attention",
+      "target": "layers_activation_siluandmul",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "layers_activation_siluandmul",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "layers_activation_siluandmul",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3model",
+      "target": "layers_activation_siluandmul",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L6",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "layers_activation_siluandmul",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L111",
+      "weight": 1,
+      "source": "models_qwen3_qwen3mlp_init",
+      "target": "layers_activation_siluandmul"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L11",
+      "weight": 1,
+      "source": "nanovllm_layers_attention_py",
+      "target": "layers_attention_store_kvcache_kernel",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L33",
+      "weight": 1,
+      "source": "nanovllm_layers_attention_py",
+      "target": "layers_attention_store_kvcache",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L43",
+      "weight": 1,
+      "source": "nanovllm_layers_attention_py",
+      "target": "layers_attention_attention",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "layers_attention_attention_forward",
+      "target": "layers_attention_store_kvcache",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L45",
+      "weight": 1,
+      "source": "layers_attention_attention",
+      "target": "layers_attention_attention_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L59",
+      "weight": 1,
+      "source": "layers_attention_attention",
+      "target": "layers_attention_attention_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3attention",
+      "target": "layers_attention_attention",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "layers_attention_attention",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "layers_attention_attention",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3model",
+      "target": "layers_attention_attention",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L7",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "layers_attention_attention",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L62",
+      "weight": 1,
+      "source": "models_qwen3_qwen3attention_init",
+      "target": "layers_attention_attention"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/layers/attention.py",
+      "source_location": "L60",
+      "weight": 1,
+      "source": "layers_attention_attention_forward",
+      "target": "utils_context_get_context"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L5",
+      "weight": 1,
+      "source": "nanovllm_layers_layernorm_py",
+      "target": "layers_layernorm_rmsnorm",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L17",
+      "weight": 1,
+      "source": "nanovllm_layers_layernorm_py",
+      "target": "layers_layernorm_rms_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L29",
+      "weight": 1,
+      "source": "nanovllm_layers_layernorm_py",
+      "target": "layers_layernorm_add_rms_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L7",
+      "weight": 1,
+      "source": "layers_layernorm_rmsnorm",
+      "target": "layers_layernorm_rmsnorm_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L42",
+      "weight": 1,
+      "source": "layers_layernorm_rmsnorm",
+      "target": "layers_layernorm_rmsnorm_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3attention",
+      "target": "layers_layernorm_rmsnorm",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "layers_layernorm_rmsnorm",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "layers_layernorm_rmsnorm",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3model",
+      "target": "layers_layernorm_rmsnorm",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "layers_layernorm_rmsnorm",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L69",
+      "weight": 1,
+      "source": "models_qwen3_qwen3attention_init",
+      "target": "layers_layernorm_rmsnorm"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L143",
+      "weight": 1,
+      "source": "models_qwen3_qwen3decoderlayer_init",
+      "target": "layers_layernorm_rmsnorm"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L171",
+      "weight": 1,
+      "source": "models_qwen3_qwen3model_init",
+      "target": "layers_layernorm_rmsnorm"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L48",
+      "weight": 1,
+      "source": "layers_layernorm_rmsnorm_forward",
+      "target": "layers_layernorm_rms_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/layers/layernorm.py",
+      "source_location": "L50",
+      "weight": 1,
+      "source": "layers_layernorm_rmsnorm_forward",
+      "target": "layers_layernorm_add_rms_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L6",
+      "weight": 1,
+      "source": "nanovllm_utils_context_py",
+      "target": "utils_context_context",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L18",
+      "weight": 1,
+      "source": "nanovllm_utils_context_py",
+      "target": "utils_context_get_context",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "nanovllm_utils_context_py",
+      "target": "utils_context_set_context",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L25",
+      "weight": 1,
+      "source": "nanovllm_utils_context_py",
+      "target": "utils_context_reset_context",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "utils_context_set_context",
+      "target": "utils_context_context",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/utils/context.py",
+      "source_location": "L27",
+      "weight": 1,
+      "source": "utils_context_reset_context",
+      "target": "utils_context_context",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L201",
+      "weight": 1,
+      "source": "engine_model_runner_run_model",
+      "target": "utils_context_get_context"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L169",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_prepare_prefill",
+      "target": "utils_context_set_context"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L187",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_prepare_decode",
+      "target": "utils_context_set_context"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L240",
+      "weight": 1,
+      "source": "engine_model_runner_capture_cudagraph",
+      "target": "utils_context_set_context"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L219",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_run",
+      "target": "utils_context_reset_context"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L248",
+      "weight": 1,
+      "source": "engine_model_runner_capture_cudagraph",
+      "target": "utils_context_reset_context"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/utils/loader.py",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "nanovllm_utils_loader_py",
+      "target": "utils_loader_default_weight_loader",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/utils/loader.py",
+      "source_location": "L12",
+      "weight": 1,
+      "source": "nanovllm_utils_loader_py",
+      "target": "utils_loader_load_model",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L32",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_init",
+      "target": "utils_loader_load_model"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L2",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "enum",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "engine_sequence_sequencestatus",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L14",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "engine_sequence_sequence",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L40",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "engine_sequence_is_finished",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L44",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "engine_sequence_num_completion_tokens",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L48",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "engine_sequence_prompt_token_ids",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L52",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "engine_sequence_completion_token_ids",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L56",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "engine_sequence_num_blocks",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L60",
+      "weight": 1,
+      "source": "nanovllm_engine_sequence_py",
+      "target": "engine_sequence_last_block_num_tokens",
+      "confidence_score": 1
+    },
+    {
+      "relation": "inherits",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "engine_sequence_sequencestatus",
+      "target": "enum",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_sequence_sequencestatus",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L18",
+      "weight": 1,
+      "source": "engine_sequence_sequence",
+      "target": "engine_sequence_sequence_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L33",
+      "weight": 1,
+      "source": "engine_sequence_sequence",
+      "target": "engine_sequence_sequence_len",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L36",
+      "weight": 1,
+      "source": "engine_sequence_sequence",
+      "target": "engine_sequence_sequence_getitem",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "engine_sequence_sequence",
+      "target": "engine_sequence_sequence_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L67",
+      "weight": 1,
+      "source": "engine_sequence_sequence",
+      "target": "engine_sequence_sequence_append_token",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L72",
+      "weight": 1,
+      "source": "engine_sequence_sequence",
+      "target": "engine_sequence_sequence_getstate",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/sequence.py",
+      "source_location": "L76",
+      "weight": 1,
+      "source": "engine_sequence_sequence",
+      "target": "engine_sequence_sequence_setstate",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L8",
+      "weight": 0.8,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_sequence_sequence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "source": "engine_block_manager_block",
+      "target": "engine_sequence_sequence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_sequence_sequence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L10",
+      "weight": 0.8,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_sequence_sequence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L4",
+      "weight": 0.8,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_sequence_sequence",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L97",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_warmup_model",
+      "target": "engine_sequence_sequence"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L46",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine_add_request",
+      "target": "engine_sequence_sequence"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L15",
+      "weight": 1,
+      "source": "nanovllm_engine_model_runner_py",
+      "target": "engine_model_runner_modelrunner",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L196",
+      "weight": 1,
+      "source": "nanovllm_engine_model_runner_py",
+      "target": "engine_model_runner_run_model",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L223",
+      "weight": 1,
+      "source": "nanovllm_engine_model_runner_py",
+      "target": "engine_model_runner_capture_cudagraph",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L17",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L50",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_exit",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L61",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_loop",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L68",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_read_shm",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L76",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_write_shm",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L85",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_call",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L91",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_warmup_model",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L103",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_allocate_kv_cache",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L123",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_prepare_block_tables",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L129",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_prepare_prefill",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L172",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_prepare_decode",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L190",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_prepare_sample",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L214",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner",
+      "target": "engine_model_runner_modelrunner_run",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L9",
+      "weight": 0.8,
+      "source": "engine_model_runner_modelrunner",
+      "target": "models_qwen3_qwen3forcausallm",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L12",
+      "weight": 0.8,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_model_runner_modelrunner",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L31",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine_init",
+      "target": "engine_model_runner_modelrunner"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_init",
+      "target": "engine_model_runner_modelrunner_warmup_model",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L35",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_init",
+      "target": "engine_model_runner_modelrunner_allocate_kv_cache",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_init",
+      "target": "engine_model_runner_capture_cudagraph",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L48",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_init",
+      "target": "engine_model_runner_modelrunner_loop",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L31",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_init",
+      "target": "models_qwen3_qwen3forcausallm"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_loop",
+      "target": "engine_model_runner_modelrunner_read_shm",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L64",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_loop",
+      "target": "engine_model_runner_modelrunner_call",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L87",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_call",
+      "target": "engine_model_runner_modelrunner_write_shm",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L100",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_warmup_model",
+      "target": "engine_model_runner_modelrunner_run",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L163",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_prepare_prefill",
+      "target": "engine_model_runner_modelrunner_prepare_block_tables",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L186",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_prepare_decode",
+      "target": "engine_model_runner_modelrunner_prepare_block_tables",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L215",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_run",
+      "target": "engine_model_runner_modelrunner_prepare_prefill",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L215",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_run",
+      "target": "engine_model_runner_modelrunner_prepare_decode",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L216",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_run",
+      "target": "engine_model_runner_modelrunner_prepare_sample",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/model_runner.py",
+      "source_location": "L217",
+      "weight": 1,
+      "source": "engine_model_runner_modelrunner_run",
+      "target": "engine_model_runner_run_model",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "nanovllm_engine_block_manager_py",
+      "target": "engine_block_manager_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L26",
+      "weight": 1,
+      "source": "nanovllm_engine_block_manager_py",
+      "target": "engine_block_manager_blockmanager",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L36",
+      "weight": 1,
+      "source": "nanovllm_engine_block_manager_py",
+      "target": "engine_block_manager_compute_hash",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L10",
+      "weight": 1,
+      "source": "engine_block_manager_block",
+      "target": "engine_block_manager_block_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "engine_block_manager_block",
+      "target": "engine_block_manager_block_update",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L20",
+      "weight": 1,
+      "source": "engine_block_manager_block",
+      "target": "engine_block_manager_block_reset",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L30",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_init",
+      "target": "engine_block_manager_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L63",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_can_allocate",
+      "target": "engine_block_manager_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L79",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_allocate",
+      "target": "engine_block_manager_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L117",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_hash_blocks",
+      "target": "engine_block_manager_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L39",
+      "weight": 1,
+      "source": "engine_block_manager_compute_hash",
+      "target": "engine_block_manager_block_update",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L119",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_hash_blocks",
+      "target": "engine_block_manager_block_update",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L49",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_allocate_block",
+      "target": "engine_block_manager_block_reset",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L28",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L43",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_allocate_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L53",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_deallocate_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L58",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_can_allocate",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L75",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_allocate",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L94",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_deallocate",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L103",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_can_append",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L106",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_may_append",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L110",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager",
+      "target": "engine_block_manager_blockmanager_hash_blocks",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L5",
+      "weight": 0.8,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_block_manager_blockmanager",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L15",
+      "weight": 1,
+      "source": "engine_scheduler_scheduler_init",
+      "target": "engine_block_manager_blockmanager"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L64",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_can_allocate",
+      "target": "engine_block_manager_compute_hash",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L80",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_allocate",
+      "target": "engine_block_manager_compute_hash",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L118",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_hash_blocks",
+      "target": "engine_block_manager_compute_hash",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L91",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_allocate",
+      "target": "engine_block_manager_blockmanager_allocate_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L108",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_may_append",
+      "target": "engine_block_manager_blockmanager_allocate_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/block_manager.py",
+      "source_location": "L99",
+      "weight": 1,
+      "source": "engine_block_manager_blockmanager_deallocate",
+      "target": "engine_block_manager_blockmanager_deallocate_block",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L15",
+      "weight": 1,
+      "source": "nanovllm_engine_llm_engine_py",
+      "target": "engine_llm_engine_llmengine",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L17",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_llm_engine_llmengine_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_llm_engine_llmengine_exit",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L43",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_llm_engine_llmengine_add_request",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L49",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_llm_engine_llmengine_step",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L57",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_llm_engine_llmengine_is_finished",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L60",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_llm_engine_llmengine_generate",
+      "confidence_score": 1
+    },
+    {
+      "relation": "uses",
+      "confidence": "INFERRED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L11",
+      "weight": 0.8,
+      "source": "engine_llm_engine_llmengine",
+      "target": "engine_scheduler_scheduler",
+      "confidence_score": 0.5
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine_init",
+      "target": "engine_scheduler_scheduler"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L70",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine_generate",
+      "target": "engine_llm_engine_llmengine_add_request",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L75",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine_generate",
+      "target": "engine_llm_engine_llmengine_step",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/llm_engine.py",
+      "source_location": "L73",
+      "weight": 1,
+      "source": "engine_llm_engine_llmengine_generate",
+      "target": "engine_llm_engine_llmengine_is_finished",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "nanovllm_engine_scheduler_py",
+      "target": "engine_scheduler_scheduler",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L10",
+      "weight": 1,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_scheduler_scheduler_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L19",
+      "weight": 1,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_scheduler_scheduler_is_finished",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L22",
+      "weight": 1,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_scheduler_scheduler_add",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L25",
+      "weight": 1,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_scheduler_scheduler_schedule",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L75",
+      "weight": 1,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_scheduler_scheduler_preempt",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L81",
+      "weight": 1,
+      "source": "engine_scheduler_scheduler",
+      "target": "engine_scheduler_scheduler_postprocess",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/engine/scheduler.py",
+      "source_location": "L62",
+      "weight": 1,
+      "source": "engine_scheduler_scheduler_schedule",
+      "target": "engine_scheduler_scheduler_preempt",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L14",
+      "weight": 1,
+      "source": "nanovllm_models_qwen3_py",
+      "target": "models_qwen3_qwen3attention",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L91",
+      "weight": 1,
+      "source": "nanovllm_models_qwen3_py",
+      "target": "models_qwen3_qwen3mlp",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L120",
+      "weight": 1,
+      "source": "nanovllm_models_qwen3_py",
+      "target": "models_qwen3_qwen3decoderlayer",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L162",
+      "weight": 1,
+      "source": "nanovllm_models_qwen3_py",
+      "target": "models_qwen3_qwen3model",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L186",
+      "weight": 1,
+      "source": "nanovllm_models_qwen3_py",
+      "target": "models_qwen3_qwen3forcausallm",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "models_qwen3_qwen3attention",
+      "target": "models_qwen3_qwen3attention_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L72",
+      "weight": 1,
+      "source": "models_qwen3_qwen3attention",
+      "target": "models_qwen3_qwen3attention_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L127",
+      "weight": 1,
+      "source": "models_qwen3_qwen3decoderlayer_init",
+      "target": "models_qwen3_qwen3attention",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L28",
+      "weight": 1,
+      "source": "models_qwen3_qwen3attention_init",
+      "target": "models_qwen3_qwen3forcausallm_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L93",
+      "weight": 1,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "models_qwen3_qwen3mlp_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L113",
+      "weight": 1,
+      "source": "models_qwen3_qwen3mlp",
+      "target": "models_qwen3_qwen3mlp_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L138",
+      "weight": 1,
+      "source": "models_qwen3_qwen3decoderlayer_init",
+      "target": "models_qwen3_qwen3mlp",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L99",
+      "weight": 1,
+      "source": "models_qwen3_qwen3mlp_init",
+      "target": "models_qwen3_qwen3forcausallm_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L122",
+      "weight": 1,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "models_qwen3_qwen3decoderlayer_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L146",
+      "weight": 1,
+      "source": "models_qwen3_qwen3decoderlayer",
+      "target": "models_qwen3_qwen3decoderlayer_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L170",
+      "weight": 1,
+      "source": "models_qwen3_qwen3model_init",
+      "target": "models_qwen3_qwen3decoderlayer",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L126",
+      "weight": 1,
+      "source": "models_qwen3_qwen3decoderlayer_init",
+      "target": "models_qwen3_qwen3forcausallm_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L164",
+      "weight": 1,
+      "source": "models_qwen3_qwen3model",
+      "target": "models_qwen3_qwen3model_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L173",
+      "weight": 1,
+      "source": "models_qwen3_qwen3model",
+      "target": "models_qwen3_qwen3model_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L200",
+      "weight": 1,
+      "source": "models_qwen3_qwen3forcausallm_init",
+      "target": "models_qwen3_qwen3model",
+      "confidence_score": 1
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L168",
+      "weight": 1,
+      "source": "models_qwen3_qwen3model_init",
+      "target": "models_qwen3_qwen3forcausallm_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L195",
+      "weight": 1,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "models_qwen3_qwen3forcausallm_init",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L205",
+      "weight": 1,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "models_qwen3_qwen3forcausallm_forward",
+      "confidence_score": 1
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "nanovllm/models/qwen3.py",
+      "source_location": "L212",
+      "weight": 1,
+      "source": "models_qwen3_qwen3forcausallm",
+      "target": "models_qwen3_qwen3forcausallm_compute_logits",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L9",
+      "weight": 1,
+      "source": "readme_md",
+      "target": "nano_vllm_readme_nano_vllm",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L13",
+      "weight": 1,
+      "source": "nano_vllm_readme_nano_vllm",
+      "target": "nano_vllm_readme_key_features",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L19",
+      "weight": 1,
+      "source": "nano_vllm_readme_nano_vllm",
+      "target": "nano_vllm_readme_installation",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L25",
+      "weight": 1,
+      "source": "nano_vllm_readme_nano_vllm",
+      "target": "nano_vllm_readme_model_download",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L34",
+      "weight": 1,
+      "source": "nano_vllm_readme_nano_vllm",
+      "target": "nano_vllm_readme_quick_start",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L46",
+      "weight": 1,
+      "source": "nano_vllm_readme_nano_vllm",
+      "target": "nano_vllm_readme_benchmark",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L64",
+      "weight": 1,
+      "source": "nano_vllm_readme_nano_vllm",
+      "target": "nano_vllm_readme_star_history",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L21",
+      "weight": 1,
+      "source": "nano_vllm_readme_installation",
+      "target": "nano_vllm_readme_codeblock_1",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L28",
+      "weight": 1,
+      "source": "nano_vllm_readme_model_download",
+      "target": "nano_vllm_readme_codeblock_2",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "README.md",
+      "source_location": "L37",
+      "weight": 1,
+      "source": "nano_vllm_readme_quick_start",
+      "target": "nano_vllm_readme_codeblock_3",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L2",
+      "weight": 1,
+      "source": "agents_md",
+      "target": "nano_vllm_agents_gitnexus_code_intelligence",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "nano_vllm_agents_gitnexus_code_intelligence",
+      "target": "nano_vllm_agents_always_do",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "nano_vllm_agents_gitnexus_code_intelligence",
+      "target": "nano_vllm_agents_never_do",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "nano_vllm_agents_gitnexus_code_intelligence",
+      "target": "nano_vllm_agents_resources",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "AGENTS.md",
+      "source_location": "L32",
+      "weight": 1,
+      "source": "nano_vllm_agents_gitnexus_code_intelligence",
+      "target": "nano_vllm_agents_cli",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L2",
+      "weight": 1,
+      "source": "claude_md",
+      "target": "nano_vllm_claude_gitnexus_code_intelligence",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L8",
+      "weight": 1,
+      "source": "nano_vllm_claude_gitnexus_code_intelligence",
+      "target": "nano_vllm_claude_always_do",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L16",
+      "weight": 1,
+      "source": "nano_vllm_claude_gitnexus_code_intelligence",
+      "target": "nano_vllm_claude_never_do",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L23",
+      "weight": 1,
+      "source": "nano_vllm_claude_gitnexus_code_intelligence",
+      "target": "nano_vllm_claude_resources",
+      "confidence_score": 1
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "CLAUDE.md",
+      "source_location": "L32",
+      "weight": 1,
+      "source": "nano_vllm_claude_gitnexus_code_intelligence",
+      "target": "nano_vllm_claude_cli",
+      "confidence_score": 1
+    }
+  ]
+}

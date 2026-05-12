@@ -7,6 +7,7 @@
 .omx/**
 .gitnexus/**
 .code-review-graph/**
+graphify-out/**
 .git/**
 __pycache__/**
 *.pyc
