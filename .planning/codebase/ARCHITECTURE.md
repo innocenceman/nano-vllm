@@ -15,6 +15,13 @@
 - Layer primitives in `nanovllm/layers/` encapsulate tensor parallel sharding, FlashAttention invocation, Triton KV-cache writes, RoPE, RMSNorm, activation, embeddings, and sampling.
 - Per-forward-pass attention metadata is passed through the lightweight process-local context in `nanovllm/utils/context.py`.
 
+## Architecture Diagram
+
+The diagram below summarizes the same runtime described in this document, with
+numbered badges showing the main generation loop order.
+
+![nano-vllm Detailed Runtime Architecture with numbered flow](assets/nano-vllm-detailed-runtime-architecture-numbered.png)
+
 ## Layers
 
 **Public API Layer:**
